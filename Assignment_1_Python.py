@@ -1,8 +1,5 @@
 #Registration and Login system using Python, file handling
 
-# Final **
-#Correcting the code
-
 # Function to validate username
 
 def emailid_register(userName):
@@ -57,7 +54,7 @@ def store(userName, passwd) :
   ss =  "\n" + userName + " " + passwd
   f.write(ss)
 
-
+#function to login
 def login():
     print("Welcome to Login Page")
     userName = str(input("Login Name: "))
